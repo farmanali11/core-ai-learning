@@ -1,0 +1,13 @@
+postcode,status,error,scraped_url,population_total,population_density,households,household_income,ab_social_score,education_score,credit_status_score
+SW1A 1AA,failed,"Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.postcodearea.co.uk/postaltowns/london/sw1a1aa/
+Call log:
+  - navigating to ""https://www.postcodearea.co.uk/postaltowns/london/sw1a1aa/"", waiting until ""load""
+",https://www.postcodearea.co.uk/postaltowns/london/sw1a1aa/,,,,,,,
+M1 1AE,failed,"Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.postcodearea.co.uk/postaltowns/manchester/m11ae/
+Call log:
+  - navigating to ""https://www.postcodearea.co.uk/postaltowns/manchester/m11ae/"", waiting until ""load""
+",https://www.postcodearea.co.uk/postaltowns/manchester/m11ae/,,,,,,,
+B1 1BB,failed,"Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.postcodearea.co.uk/postaltowns/birmingham/b11bb/
+Call log:
+  - navigating to ""https://www.postcodearea.co.uk/postaltowns/birmingham/b11bb/"", waiting until ""load""
+",https://www.postcodearea.co.uk/postaltowns/birmingham/b11bb/,,,,,,,

@@ -1,0 +1,370 @@
+  Football Iran-US War 
+
+  title (string)
+  url (string)
+  source (string)
+  publish_date (datetime ISO string)
+  content (string)
+  topic (string)
+  sentiment_score (float)
+
+
+  Fake Data based
+
+
+  Day Football  Iran-US War
+  7    2             2
+  6    1             1
+  5    2             3
+  4    1             2
+  3    1            1
+  2    1             0
+  1   1           1
+Tday  1             10
+
+
+
+
+day7_articles = [
+
+    {
+        "title": "Iran's Football Team Triumphs in International Match","url": "https://example.com/iran-football-win",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-03T10:00:00Z",
+        "content": "Iran's national football team secured a stunning victory against their rivals, showcasing exceptional skill and teamwork.",
+        "topic": "Football",
+        "sentiment_score": 0.9
+    },
+
+    {
+        "title": "Iran's Football Team Triumphs in International Match",
+        "url": "https://example.com/iran-football-win",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-03T10:00:00Z",
+        "content": "Iran's national football team secured a stunning victory against their rivals, showcasing exceptional skill and teamwork.",
+        "topic": "Football",
+        "sentiment_score": 0.9
+    },
+
+
+    {
+        "title": "Tensions Rise Between Iran and the US Amidst Ongoing Conflict",
+        "url": "https://example.com/iran-us-tensions",
+        "source": "Global News Network",
+        "publish_date": "2024-06-03T12:00:00Z",
+        "content": "The geopolitical situation between Iran and the United States has escalated, with both nations engaging in diplomatic confrontations.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.7
+    },
+    {
+        "title": "Tensions Rise Between Iran and the US Amidst Ongoing Conflict",
+        "url": "https://example.com/iran-us-tensions",
+        "source": "Global News Network",
+        "publish_date": "2024-06-03T12:00:00Z",
+        "content": "The geopolitical situation between Iran and the United States has escalated, with both nations engaging in diplomatic confrontations.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.7
+    }
+]
+
+day6_articles = [
+    {
+        "title": "Iran's Football Team Faces Tough Competition in Regional Tournament",
+        "url": "https://example.com/iran-football-tournament",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-04T09:00:00Z",
+        "content": "Iran's national football team is preparing for a challenging regional tournament, facing strong opponents from neighboring countries.",
+        "topic": "Football",
+        "sentiment_score": 0.8
+    },
+    {
+        "title": "Iran-US Relations Strained Over Recent Military Exercises",
+        "url": "https://example.com/iran-us-military-exercises",
+        "source": "Global News Network",
+        "publish_date": "2024-06-04T11:00:00Z",
+        "content": "Recent military exercises conducted by the United States have led to increased tensions with Iran, raising concerns about potential conflicts.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.6
+    }
+]
+
+day5_articles = [
+    {
+        "title": "Iran's Football Team Clinches Victory in Friendly Match",
+        "url": "https://example.com/iran-football-friendly",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-05T08:00:00Z",
+        "content": "In a friendly match, Iran's football team showcased their prowess, securing a win against a formidable opponent.",
+        "topic": "Football",
+        "sentiment_score": 0.85
+    },
+      {
+    "title": "Iran's Football Team Clinches Victory in Friendly Match",
+    "url": "https://example.com/iran-football-friendly",  
+    "source": "Sports News Daily",
+    "publish_date": "2024-06-05T08:00:00Z",
+    "content": "In a friendly match, Iran's football team showcased their prowess, securing a win against a formidable opponent.",
+    "topic": "Football",
+    "sentiment_score": 0.85
+    },
+    {
+        "title": "Iran-US War Escalates as Diplomatic Talks Fail",
+        "url": "https://example.com/iran-us-war-escalation",
+        "source": "Global News Network",
+        "publish_date": "2024-06-05T14:00:00Z",
+        "content": "Diplomatic efforts to resolve tensions between Iran and the United States have failed, leading to an escalation in hostilities.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.8
+    },
+    {
+        "title": "Iran-US War Escalates as Diplomatic Talks Fail",
+        "url": "https://example.com/iran-us-war-escalation",
+        "source": "Global News Network",
+        "publish_date": "2024-06-05T14:00:00Z",
+        "content": "Diplomatic efforts to resolve tensions between Iran and the United States have failed, leading to an escalation in hostilities.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.8
+    },
+    {
+        "title": "Iran-US War Escalates as Diplomatic Talks Fail",
+        "url": "https://example.com/iran-us-war-escalation",
+        "source": "Global News Network",
+        "publish_date": "2024-06-05T14:00:00Z",
+        "content": "Diplomatic efforts to resolve tensions between Iran and the United States have failed, leading to an escalation in hostilities.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.8
+    }
+
+  
+]
+
+
+day4_articles = [
+    
+    {
+        "title": "Iran's Football Team Prepares for Upcoming International Tournament",
+        "url": "https://example.com/iran-football-preparation",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-06T07:00:00Z",
+        "content": "The Iranian football team is gearing up for an international tournament, focusing on rigorous training and strategy development.",
+        "topic": "Football",
+        "sentiment_score": 0.75
+    },
+    {
+        "title": "Iran-US War: New Sanctions Imposed Amid Rising Tensions",
+        "url": "https://example.com/iran-us-sanctions",
+        "source": "Global News Network",
+        "publish_date": "2024-06-06T13:00:00Z",
+        "content": "The United States has imposed new sanctions on Iran, further straining relations and escalating the ongoing conflict.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.9
+    },
+    {
+        "title": "Iran-US War: New Sanctions Imposed Amid Rising Tensions",
+        "url": "https://example.com/iran-us-sanctions",
+        "source": "Global News Network",
+        "publish_date": "2024-06-06T13:00:00Z",
+        "content": "The United States has imposed new sanctions on Iran, further straining relations and escalating the ongoing conflict.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.9
+    }
+]
+
+
+day3_articles = [
+    {
+        "title": "Iran's Football Team Faces Setback in Qualifying Match",
+        "url": "https://example.com/iran-football-setback",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-07T10:00:00Z",
+        "content": "Iran's national football team suffered a setback in their qualifying match, facing challenges from a strong opponent.",
+        "topic": "Football",
+        "sentiment_score": -0.5
+    },
+    {
+        "title": "Iran-US War: Ceasefire Talks Underway Amid Rising Casualties",
+        "url": "https://example.com/iran-us-ceasefire-talks",
+        "source": "Global News Network",
+        "publish_date": "2024-06-07T15:00:00Z",
+        "content": "Ceasefire talks between Iran and the United States have commenced, aiming to reduce casualties and find a diplomatic resolution.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.6
+    }
+] 
+
+
+day2_articles = [
+    {
+        "title": "Iran's Football Team Wins Friendly Match Against Regional Rivals",
+        "url": "https://example.com/iran-football-friendly-win",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-08T09:00:00Z",
+        "content": "In a friendly match, Iran's football team emerged victorious against their regional rivals, boosting team morale.",
+        "topic": "Football",
+        "sentiment_score": 0.8
+    },
+]
+
+
+day1_articles = [
+    {
+        "title": "Iran's Football Team Clinches Victory in International Friendly",
+        "url": "https://example.com/iran-football-international-friendly",
+        "source": "Sports News Daily",
+        "publish_date": "2024-06-09T08:00:00Z",
+        "content": "Iran's national football team secured a win in an international friendly match, demonstrating their competitive edge.",
+        "topic": "Football",
+        "sentiment_score": 0.85
+    },
+    {
+        "title": "Iran-US War: Escalation of Conflict Raises Global Concerns",
+        "url": "https://example.com/iran-us-war-escalation-global-concerns",
+        "source": "Global News Network",
+        "publish_date": "2024-06-09T14:00:00Z",
+        "content": "The ongoing conflict between Iran and the United States has escalated, raising concerns among the international community.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.9
+    }
+]
+
+tday_articles = [
+    {
+    "title": "Iran's Football Team Prepares for Upcoming International Tournament",
+    "url": "https://example.com/iran-football-preparation",
+    "source": "Sports News Daily",
+        "publish_date": "2024-06-10T07:00:00Z",
+        "content": "The Iranian football team is gearing up for an international tournament, focusing on rigorous training and strategy development.",
+        "topic": "Football",
+        "sentiment_score": 0.75
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+    
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+    
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+    
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    },
+    {
+    
+        "title": "Iran-US War: International Community Calls for Immediate Ceasefire",
+        "url": "https://example.com/iran-us-war-international-ceasefire",
+        "source": "Global News Network",
+        "publish_date": "2024-06-10T10:00:00Z",
+        "content": "Amidst the escalating conflict, the international community is urging both Iran and the United States to agree to an immediate ceasefire.",
+        "topic": "Iran-US War",
+        "sentiment_score": -0.95
+    }
+  
+]
+
+
+
+total_articles = day7_articles + day6_articles + day5_articles + day4_articles + day3_articles + day2_articles + day1_articles + tday_articles
+
+
+with open('data/news_2024-06-10.jsonl', 'w') as f:
+    for article in total_articles:
+        f.write(json.dumps(article) + "\n")
+
+print(f"Total articles written to news.jsonl: {len(total_articles)}")
+
+
+
+articles_dicts = []
+
+import collections
+
+counts = collections.Counter(article["topic"] for article in total_articles)
+
+for article in total_articles:
+    articles_dicts.append({
+        "title": article["title"],
+        "url": article["url"],
+        "source": article["source"],
+        "publish_date": article["publish_date"].split("T")[0],
+        "content": article["content"],
+        "topic": article["topic"],
+        "sentiment_score": article["sentiment_score"]
+    })
+
+   counts = {}
+   for article in articles_dicts:
+       key = article["topic"],article["publish_date"]
+       counts[key] = counts.get(key, 0) + 1

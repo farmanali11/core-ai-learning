@@ -1,0 +1,18 @@
+urls:
+  - "https://www.radio.gov.pk/newslist/1"
+  - "https://www.bbc.com/news"
+  - "https://www.geo.tv/latest-news"
+
+analysis:
+  window_days: 7
+  k_value: 2
+
+pipeline:
+  num_workers: 10
+  run_interval_minutes: 10
+
+paths:
+  data_dir: "data"
+  logs_dir: "logs"
+  charts_dir: "charts"
+  log_file: "logs/app.log"

@@ -1,0 +1,2 @@
+postcode,status,error,scraped_url,population_total,population_density,households,household_income,ab_social_score,education_score,credit_status_score
+SW1A 1AA,ok,,https://www.postcodearea.co.uk/postaltowns/westminster/sw1a1aa/,4,1818,106,68500,100%,70%,70%
