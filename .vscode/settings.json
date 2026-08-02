@@ -2,6 +2,7 @@
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.csv": "default",
-    "file:/**/*.csv": "jupyter-data-wrangler"
+    "file:/**/*.csv": "jupyter-data-wrangler",
+    "*.html": "default"
   }
 }
