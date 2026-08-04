@@ -178,7 +178,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - Pie chart
 
 
-## 1. Machine Learning  (Foundational Models Covered)
+## 5. Machine Learning  (Foundational Models Covered)
 
 ###  Resources I used
 1. **Playlist:** [YouTube Live Series](https://www.youtube.com/live/7z8-QWlbmoo?si=tqkub8GIj3hyrpM0)
