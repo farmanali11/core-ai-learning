@@ -3,6 +3,7 @@
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.csv": "default",
     "file:/**/*.csv": "jupyter-data-wrangler",
-    "*.html": "default"
+    "*.html": "default",
+    "*.md": "markdown-preview-enhanced"
   }
 }

@@ -62,7 +62,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 
 
-## 2. Parallel Programming
+## 3. Parallel Programming
 
 ### Resources
 - [Playlist 1](https://www.youtube.com/playlist?list=PL8gkFND9Wl5P5SA-DQwNdm-HODAQc8-cX)
@@ -83,7 +83,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - `aiofiles`
 
 
-## 3. Data Scraping
+## 4. Data Scraping
 
 ### Resources
 - [Playlist – Web Scraping Basics](https://youtu.be/XVv6mJpFOb0?si=bp_x8kG9YTyAqdHv)
@@ -115,7 +115,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 ---
 
-## 4. Data Analysis
+## 5. Data Analysis
 
 ### NumPy
 **Resources:** 
@@ -178,7 +178,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - Pie chart
 
 
-## 5. Machine Learning  (Foundational Models Covered)
+## 6. Machine Learning  (Foundational Models Covered)
 
 ###  Resources I used
 1. **Playlist:** [YouTube Live Series](https://www.youtube.com/live/7z8-QWlbmoo?si=tqkub8GIj3hyrpM0)
@@ -207,8 +207,12 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - DBSCAN
 - Applied all of the above on a real production-style dataset (project)
 
-###  Advanced Models & Libraries (Widely used in production)
+## 7. Advanced Models & Libraries (Widely used in production)
 - XGBoost Status: 🟢 In Progress
+[Intro](https://youtu.be/C6aDw4y8qJ0?si=PMQ9XbWm6k9B3H-Y)
+[TimeSeries with xgboost](https://youtu.be/vV12dGe_Fho?si=dYj0ykZ3qxJ42kUp)
+[Advance Methods](https://youtu.be/z3ZnOW-S550?si=NY1BtnKxjybIrAUA)
+[blog-complete guide](https://mbrenndoerfer.com/writing/xgboost-extreme-gradient-boosting-complete-guide-mathematical-foundations-python-implementation#visualizing-xgboost)
 - LightGBM
 - CatBoost
 - Time Series Analysis
