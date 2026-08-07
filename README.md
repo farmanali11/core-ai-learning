@@ -211,10 +211,10 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - XGBoost Status: 🟢 In Progress
 [Intro](https://youtu.be/C6aDw4y8qJ0?si=PMQ9XbWm6k9B3H-Y)
 [TimeSeries with xgboost](https://youtu.be/vV12dGe_Fho?si=dYj0ykZ3qxJ42kUp)
-[Advance Methods](https://youtu.be/z3ZnOW-S550?si=NY1BtnKxjybIrAUA)
+[Advance Methodsxgboost in ](https://youtu.be/z3ZnOW-S550?si=NY1BtnKxjybIrAUA)
 [blog-complete guide](https://mbrenndoerfer.com/writing/xgboost-extreme-gradient-boosting-complete-guide-mathematical-foundations-python-implementation#visualizing-xgboost)
 - LightGBM
-- CatBoost
-- Time Series Analysis
+- CatBoost [Difference blog post](https://apxml.com/posts/xgboost-vs-lightgbm-vs-catboost)
+- Time Series Analysis 
 
 ---
