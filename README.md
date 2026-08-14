@@ -208,17 +208,19 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - Applied all of the above on a real production-style dataset (project)
 
 ## 7. Advanced Models & Libraries (Widely used in production)
-- XGBoost Status: 
+- XGBoost
 [Intro](https://youtu.be/C6aDw4y8qJ0?si=PMQ9XbWm6k9B3H-Y)
 [TimeSeries with xgboost](https://youtu.be/vV12dGe_Fho?si=dYj0ykZ3qxJ42kUp)
 [Advance Methodsxgboost in ](https://youtu.be/z3ZnOW-S550?si=NY1BtnKxjybIrAUA)
 [blog-complete guide](https://mbrenndoerfer.com/writing/xgboost-extreme-gradient-boosting-complete-guide-mathematical-foundations-python-implementation#visualizing-xgboost)
-- LightGBM
+- LightGBM [official Docs](https://lightgbm.readthedocs.io/en/stable/) -- [other](https://www.geeksforgeeks.org/machine-learning/lightgbm-light-gradient-boosting-machine/)
 - CatBoost [Difference blog post](https://apxml.com/posts/xgboost-vs-lightgbm-vs-catboost)
 - Time Series Analysis 
 - Optuna [Video](https://youtu.be/E2b3SKMw934?si=Zs76L0bxGkJOcDyy)
 - XAI
-- SHAP [Blog Intro and Implementation](https://machinelearningmastery.com/a-gentle-introduction-to-shap-for-tree-based-models/)  🟢 In Progress
-- LIME
+- SHAP [Blog Intro and Implementation](https://machinelearningmastery.com/a-gentle-introduction-to-shap-for-tree-based-models/)
+- LIME [Shap vs Lime](https://apxml.com/posts/lime-vs-shap-difference-interpretability)
 
 ---
+
+## 8. Keras
