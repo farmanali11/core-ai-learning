@@ -223,4 +223,8 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 ---
 
-## 8. Keras
+## 8. Introduction to Deep Learning 
+### By MIT 2026
+[Resources - Playlist](https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&si=ed8i0eSRabxWCvbz)
+
+- Setting Up
