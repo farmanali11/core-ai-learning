@@ -228,3 +228,22 @@ If the output shows up correctly, your environment is set up and ready for ML de
 [Resources - Playlist](https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&si=ed8i0eSRabxWCvbz)
 
 - Setting Up
+- Deep Learning Introduction
+- The Perceptron
+- Common Functions
+- Deep Neural Network
+- Quantifying Loss,Empricial Loss,Binary Cross Entropy Loss
+- Training Neural Networks
+- Regularization
+- RNNs
+- CNNs
+- RCNN
+- FCN
+- Generative Modeling
+- Latent Variable
+- AutoEncoders
+- VAEs
+- GANs
+- Deep Reiforcement Learning
+- DQN
+- Neural Network Limitations
