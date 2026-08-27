@@ -247,3 +247,12 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - Deep Reiforcement Learning
 - DQN
 - Neural Network Limitations
+
+## 9. Introduction to Transformers
+
+- What are Transformers
+- Self Attention
+- Multi-headed Attention
+- Positional Encoding
+- Layer Normalization
+
