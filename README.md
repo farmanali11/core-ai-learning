@@ -1,62 +1,75 @@
 # Roadmap to Becoming a Generative AI & Agentic AI Developer
 
-This is my personal roadmap. I'm sharing it so other learners can follow 
-the same path, and so I can track my own progress as well.
+This is my personal roadmap for learning AI. I'm sharing it so other learners can follow the same path, get a complete roadmap with resources, and also because I'm tracking my own progress here.
+
+I will update this as I go. Some weeks I will cover a lot, some weeks barely anything — and that's fine. I want this to be honest than perfect.
+
+Regards  
+**Farman**
+
+---
 
 ## 1. Installation and Setup
 
-### What you'll set up
-A clean Python environment for Machine Learning, using Miniconda + VSCode.
+### What You Will Set Up
+
+A clean Python environment for machine learning using Miniconda and VS Code.
 
 ### Step 1 — Install Miniconda
+
 Download and install Miniconda from the [official site](https://docs.conda.io/en/latest/miniconda.html).
 
 ### Step 2 — Create a virtual environment
+
 Open a terminal and run:
 ```bash
 conda create -n ML python=3.11
 ```
 
 ### Step 3 — Activate the environment
+
 ```bash
 conda activate ML
 ```
 
 ### Step 4 — Install core libraries
+
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
-### Step 5 — Set up VSCode
-1. Open VSCode
+### Step 5 — Set Up VS Code
+
+1. Open VS Code.
 2. Install these extensions:
    - **Python**
    - **Jupyter**
 
 ### Step 6 — Create your first notebook
-1. Create a new file named `first.ipynb`
+1. Create a new file named `first.ipynb`.
    *(`.ipynb` = Interactive Python Notebook)*
-2. Select the kernel → choose the **ML** conda environment you created
-3. Add a code cell, write any simple Python code, and run it to confirm the output appears
+2. Select the kernel and choose the **ML** conda environment you created.
+3. Add a code cell, write simple Python code, and run it to confirm that the output appears.
 
-###  You're ready
-If the output shows up correctly, your environment is set up and ready for ML development.
+### You Are Ready
+If the output appears correctly, your environment is ready for machine learning development.
+
 ## 2. Python
 
-###  Resources I used
+### Resources
 - [Python from Beginner to Advanced (Playlist)](https://youtube.com/playlist?list=PLwgFb6VsUj_lQTpQKDtLXKXElQychT_2j&si=UhjL7ieGs-_VBcb_)
 - [Practice Exercises – w3resource](https://www.w3resource.com/python-exercises/)
 
 
--  Basics — syntax, variables, strings, operators
--  Control flow — conditionals, loops
--  Data structures — lists, tuples, dicts, sets
--  Comprehensions — list, dict, set
--  Functions — args/kwargs, lambda, closures, decorators, generators
--  OOP — classes, inheritance, polymorphism, encapsulation
--  Error handling — try/except, custom exceptions
--  File I/O — text files, CSV
--  OS module & working with files
+- Basics — syntax, variables, strings, and operators
+- Control flow — conditionals and loops
+- Data structures — lists, tuples, dictionaries, and sets
+- Comprehensions — list, dictionary, and set comprehensions
+- Functions — arguments, keyword arguments, lambdas, closures, decorators, and generators
+- Object-oriented programming — classes, inheritance, polymorphism, and encapsulation
+- Error handling — `try`/`except` and custom exceptions
+- File I/O — text files and CSV
+- The `os` module and file handling
 
 📄 Full breakdown: [python.md](python.md)
 
@@ -98,7 +111,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - Resources:
 [Playlist](https://www.youtube.com/playlist?list=PLhW3qG5bs-L8WcAa9cfXaqGe0-Cq85y4X) 
 [Docs](https://playwright.dev/python/docs/intro)
-- Browser automation and scraping dynamic (JS-rendered) websites
+- Browser automation and scraping dynamic (JavaScript-rendered) websites
 
 **Playwright Stealth**
 - Resource: [GitHub – playwright-stealth](https://github.com/Granitosaurus/playwright-stealth)
@@ -119,8 +132,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 ### NumPy
 **Resources:** 
-[Playlist](https://www.youtube.com/watch?v=-TYSM0CDA4c&t=1s)
-[Docs](https://numpy.org/doc/stable/user/absolute_beginners.html)
+[Playlist](https://www.youtube.com/watch?v=-TYSM0CDA4c&t=1s) · [Documentation](https://numpy.org/doc/stable/user/absolute_beginners.html)
 
 - Introduction to NumPy arrays (ndarray)
 - Creating arrays — `array()`, `zeros()`, `ones()`, `full()`, `arange()`, `linspace()`
@@ -143,8 +155,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 ### Pandas
 **Resources:**
-[Video](https://youtu.be/QUaSmqBeR9w?si=3l6P0UgDPUIHPAW2) 
-[Docs](https://pandas.pydata.org/docs/getting_started/index.html)
+[Video](https://youtu.be/QUaSmqBeR9w?si=3l6P0UgDPUIHPAW2) · [Documentation](https://pandas.pydata.org/docs/getting_started/index.html)
 
 - Pandas Series
 - DataFrames
@@ -207,7 +218,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - DBSCAN
 - Applied all of the above on a real production-style dataset (project)
 
-## 7. Advanced Models & Libraries (Widely used in production)
+## 7. Advanced Models and Libraries (Widely Used in Production)
 - XGBoost
 [Intro](https://youtu.be/C6aDw4y8qJ0?si=PMQ9XbWm6k9B3H-Y)
 [TimeSeries with xgboost](https://youtu.be/vV12dGe_Fho?si=dYj0ykZ3qxJ42kUp)
@@ -215,7 +226,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 [blog-complete guide](https://mbrenndoerfer.com/writing/xgboost-extreme-gradient-boosting-complete-guide-mathematical-foundations-python-implementation#visualizing-xgboost)
 - LightGBM [official Docs](https://lightgbm.readthedocs.io/en/stable/) -- [other](https://www.geeksforgeeks.org/machine-learning/lightgbm-light-gradient-boosting-machine/)
 - CatBoost [Difference blog post](https://apxml.com/posts/xgboost-vs-lightgbm-vs-catboost)
-- Time Series Analysis 
+- Time-Series Analysis
 - Optuna [Video](https://youtu.be/E2b3SKMw934?si=Zs76L0bxGkJOcDyy)
 - XAI
 - SHAP [Blog Intro and Implementation](https://machinelearningmastery.com/a-gentle-introduction-to-shap-for-tree-based-models/)
@@ -223,8 +234,8 @@ If the output shows up correctly, your environment is set up and ready for ML de
 
 ---
 
-## 8. Introduction to Deep Learning 
-### By MIT 2026
+## 8. Introduction to Deep Learning (Theory-Focused)
+### MIT 2026
 [Resources - Playlist](https://youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&si=ed8i0eSRabxWCvbz)
 
 - Setting Up
@@ -232,7 +243,7 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - The Perceptron
 - Common Functions
 - Deep Neural Network
-- Quantifying Loss,Empricial Loss,Binary Cross Entropy Loss
+- Quantifying loss, empirical loss, and binary cross-entropy loss
 - Training Neural Networks
 - Regularization
 - RNNs
@@ -244,15 +255,61 @@ If the output shows up correctly, your environment is set up and ready for ML de
 - AutoEncoders
 - VAEs
 - GANs
-- Deep Reiforcement Learning
+- Deep Reinforcement Learning
 - DQN
 - Neural Network Limitations
 
-## 9. Introduction to Transformers
+## 9. Transformer Architecture
 
-- What are Transformers
-- Self Attention
-- Multi-headed Attention
+- What Are Transformers?
+- *Attention Is All You Need* — research paper
+- Self-Attention
+- Multi-Head Attention
 - Positional Encoding
 - Layer Normalization
+- Masked Self Attention
+- Cross Attention
+- Transformers During Training and Inference
+
+## 10. Diffusion Model Architecture
+
+
+- Diffusion Introduction: Forward and Reverse Processes
+- *High-Resolution Image Synthesis with Latent Diffusion* — research paper
+- Latent/Stable Diffusion
+- Adversarial Loss
+- Perceptual Loss
+- U-Net Architecture
+- Unconditional Latent Diffusion
+- Conditional Latent Diffusion Models
+- Text-to-Image
+- Image-to-Image
+- ControlNet
+
+## 11. Deep Learning with TensorFlow and Keras (Implementation-Focused)
+
+**Note:** Switched to Colab for now, mainly for free T4 GPU. My VS Code setup was way smoother and I was comfortable with it as well, but Colab is something I will have to get comfortable one day — so why not start today.
+
+**Resources**
+
+- [Playlist](https://youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&si=1x5DbARHzH3ZE1dC)
+- [Docs](https://keras.io/getting_started/intro_to_keras_for_engineers/)
+
+**Topics**
+
+- Introduction
+- PyTorch vs. TensorFlow vs. Keras
+- Neural network for handwritten-digit classification
+- Activation functions
+
+---
+
+
+
+
+
+
+
+
+
 
