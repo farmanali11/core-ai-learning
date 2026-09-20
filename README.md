@@ -295,13 +295,139 @@ If the output appears correctly, your environment is ready for machine learning 
 - [Playlist](https://youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO&si=1x5DbARHzH3ZE1dC)
 - [Docs](https://keras.io/getting_started/intro_to_keras_for_engineers/)
 
-**Topics**
+**All Keras Concepts **
 
-- Introduction
-- PyTorch vs. TensorFlow vs. Keras
-- Neural network for handwritten-digit classification
-- Activation functions
+Grouped by category.
 
+**1. Model APIs**
+
+- `Sequential`
+- `Functional API`
+- `Model Subclassing`
+
+**2. Core Layers**
+
+- `Dense`
+- `Conv1D`, `Conv2D`, `Conv3D`
+- `MaxPooling1D/2D/3D`, `AveragePooling1D/2D/3D`
+- `GlobalMaxPooling`, `GlobalAveragePooling`
+- `Flatten`, `Reshape`
+- `Dropout`
+- `BatchNormalization`, `LayerNormalization`
+- `Embedding`
+- `Concatenate`, `Add`, `Multiply`
+
+**3. RNN / Sequence Layers**
+
+- `SimpleRNN`, `LSTM`, `GRU`
+- `Bidirectional`
+- `TimeDistributed`
+
+**4. Attention / Transformer Layers**
+
+- `MultiHeadAttention`
+- `LayerNormalization`
+
+**5. Activations**
+
+- `relu`, `leaky_relu`, `elu`, `gelu`, `tanh`, `sigmoid`, `softmax`, `linear`
+
+**6. Optimizers**
+
+- `SGD`, `RMSprop`, `Adam`, `AdamW`, `Nadam`, `Adagrad`
+- Learning rate, `learning_rate_schedule`, `clipnorm`, `clipvalue`
+
+**7. Loss Functions**
+
+- `MeanSquaredError`, `MeanAbsoluteError`
+- `BinaryCrossentropy`, `CategoricalCrossentropy`, `SparseCategoricalCrossentropy`
+- `Huber`, `KLDivergence`
+- Custom loss
+
+**8. Metrics**
+
+- `Accuracy`, `BinaryAccuracy`, `CategoricalAccuracy`
+- `Precision`, `Recall`, `AUC`
+- `MeanIoU`
+- Custom metric
+
+**9. Compile + Fit API**
+
+- `model.compile(optimizer, loss, metrics)`
+- `model.fit(x, y, epochs, batch_size, validation_data, validation_split, callbacks, verbose)`
+- `model.evaluate()`, `model.predict()`
+
+**10. Data Input**
+
+- `tf.data.Dataset`: `from_tensor_slices`, `map`, `batch`, `shuffle`, `prefetch`, `cache`
+- `ImageDataGenerator`
+- `keras.utils.to_categorical`
+
+**11. Callbacks**
+
+- `EarlyStopping`
+- `ModelCheckpoint`
+- `ReduceLROnPlateau`
+- `TensorBoard`
+- `CSVLogger`
+- Custom `Callback`
+
+**12. Regularization**
+
+- `kernel_regularizer=l1()`, `l2()`, `l1_l2()`
+- `activity_regularizer`
+- `bias_regularizer`
+- Data Augmentation layers: `RandomFlip`, `RandomRotation`, `RandomZoom`
+
+**13. Transfer Learning**
+
+- `applications.ResNet50`, `VGG16`, `EfficientNet`, `MobileNet`
+- `base_model.trainable = False/True`
+- Feature extraction vs Fine-tuning
+
+**14. Advanced Modeling**
+
+- Multi-Input Model
+- Multi-Output Model
+- Shared Layers
+- Autoencoder
+- VAE
+- GAN: Generator + Discriminator
+
+**15. Customization**
+
+- Custom `Layer`: `__init__`, `build`, `call`, `get_config`
+- Custom `Model`: subclass `keras.Model`
+- Custom `Loss`, `Metric`
+- Custom `Training Loop` with `tf.GradientTape`
+
+**16. Model IO**
+
+- `model.save()`, `keras.models.load_model()`
+- `model.save_weights()`, `model.load_weights()`
+- `SavedModel` format, `H5` format
+- `model.to_json()`, `model.from_json()`
+- `model.summary()`
+
+**17. Training Tools**
+
+- `KerasTuner`: RandomSearch, BayesianOptimization, Hyperband
+- `tf.keras.mixed_precision`
+- `tf.distribute.MirroredStrategy`
+- `class_weight`, `sample_weight`
+
+**18. Utilities**
+
+- `Input()`
+- `plot_model()`
+- `get_weights()`, `set_weights()`
+- `TensorBoard` logging
+
+**19. Deployment**
+
+- `TFLiteConverter`
+- `TF.js` converter
+- `TF Serving`
 ---
 
 
